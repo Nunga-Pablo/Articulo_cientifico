@@ -11,14 +11,17 @@
         <navbar>
             <ul>
                 <li><a href="https://edu.devf.la/en/campus/home" target="_blank">Campus DEV.F</a></li>
+                <li><a href="https://help.salesforce.com/s/articleView?id=cc.b2c_creating_a_customer_group.htm&type=5 "
+                    target="_blank">Articulo Salesforce</a></li>
                 <li><a href="#inicio">Introducción</a></li>
                 <li><a href="#desarrollo">Desarrollo</a></li>
                 <li><a href="#conclusion">Conclusión</a></li>
+                <li><a href="#formulario">Comentarios</a></li>
             </ul>
         </navbar>
     </header>
 
-    <center><h1>Introducción a Costumer Groups</h1></center>
+    <center><h1>Introducción a Costumer Groups en Salesforce</h1></center>
 
     <!-- Inicio -->
 
@@ -54,6 +57,8 @@
             </p>
         </section>
     </section>
+
+     <!-- Desarrollo -->
 
     <section id="desarrollo">
         <section id="desarrollo-definiciones">
@@ -96,6 +101,8 @@
         </section>
     </section>
 
+     <!-- Conclusiones -->
+
     <section id="conclusion">
         <center><h2>Conclusiones</h2></center>
         <p>
@@ -106,6 +113,28 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, voluptate esse dolorem, temporibus asperiores fugit 
             optio eaque ratione corporis numquam reiciendis est quidem perferendis, vitae nemo tenetur labore beatae laudantium.
         </p>
+    </section>
+
+     <!-- Formulario -->
+
+    <section id="formulario">
+        <center><h1>Envianos tus comentarios</h1></center>
+
+        <form action="/enviar">
+            <label for="nombre">Nombre de usuario</label>
+            <input type="text" id="user"
+            name="user" required> <br> <br>
+
+            <label for="nombre">Correo electrónico</label>
+            <input type="email" id="email"
+            name="user" required> <br> <br>
+
+            <label for="nombre">Comentarios</label>
+            <textarea id="comments" required></textarea> <br> <br>
+
+            <input type="submit" value="Enviar">
+
+        </form>
     </section>
 
     <!-- Footer-->
