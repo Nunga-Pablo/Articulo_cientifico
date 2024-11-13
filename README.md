@@ -15,6 +15,6 @@ Este es un ejemplo del código en la clase 7, es la estructura semántica de HTM
 
 ![Vista previa](https://i.postimg.cc/mkYzTFCy/img.png)
 
-Asi como este es una visualización previa de la GitHub page de este repositorio
+Asi como este es una visualización previa de la GitHub Page de este repositorio
 
-![Vista previa]()
+![Vista previa](https://i.postimg.cc/CLXhcstB/img.png)
